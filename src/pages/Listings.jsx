@@ -30,7 +30,7 @@ export default function Listings() {
       {listings.length === 0 ? (
         <p>No listings found for "{search}".</p>
       ) : (
-        <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ul className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
           {listings.map((listing) => (
             <li key={listing.zpid} className="border rounded-lg shadow-sm overflow-hidden">
               {/* Image */}
